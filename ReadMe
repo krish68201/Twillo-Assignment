@@ -1,0 +1,19 @@
+The task given to us was to create a  API Layer in NodeJS For Twilio WhatsApp Service.
+
+Using Twilio WhatsApp Sandbox Candidate has to program an API in NodeJS to send
+1. Text Message
+2. Image Message
+3. Video Message
+4. Document Message
+In API calls the user is supposed to provide the auth credentials (Ex. Account SID, Auth Token)
+and required parameters for sending these messages.
+
+------- Project  Description --------------
+I have created seperate js file for sending text message as index.js, image and vedio message as sendimage.js, document message as senddocument.js to avoid confusion. We can use same file by commenting the lines not used but i preffered to make three seperate files for this task.
+
+-------- Project Execution ----------
+1. Created an acoount on Twilo and got the respective authentication and token no.
+2. Installed the twillo dependency on my project folder.
+3. Then i send the WhatsApp message by creating a client object by passing the id and auth token and send the messages using the message.create function. 
+
+
